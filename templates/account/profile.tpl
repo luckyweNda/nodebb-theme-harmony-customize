@@ -24,6 +24,12 @@
 
 <div class="account-stats container">
 	<div class="row row-cols-2 row-cols-xl-3 row-cols-xxl-4 g-2">
+		<div class="stat">
+			<div class="align-items-center justify-content-center card card-header px-0 py-3 border-0 rounded-1 h-100">
+				<span class="stat-label text-xs fw-semibold">SteamID</span>
+				<span class="human-readable-number fs-2 ff-secondary"">{sso[0].steamid}</span>
+			</div>
+		</div>
 		{{{ if !reputation:disabled }}}
 		<div class="stat">
 			<div class="align-items-center justify-content-center card card-header px-0 py-3 border-0 rounded-1 h-100">
